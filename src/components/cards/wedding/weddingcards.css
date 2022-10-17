@@ -1,0 +1,43 @@
+.marriage{
+    border: none;
+    margin: 20px;
+    text-align: left;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    cursor: pointer;
+    width: 20em;
+    
+}
+.bottomImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.marriageImage img{
+        width: 100%;
+        padding-right: 3px;
+        padding-top: 3px;
+}
+.marriageImgEnd img{
+    width: 100%;
+    padding-top: 3px;
+}
+.marriage:hover{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(136, 136, 136, 0.47);
+    border: none;
+    margin: 20px;
+    transition: 0.5s;
+    transform: scale(1.01);
+    
+}
+.bodyOfCard{
+    height: 100px;
+}
+
+.weddingCardText{
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}

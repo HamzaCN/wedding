@@ -1,0 +1,21 @@
+.ideas{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ideasImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.ideasText h3{
+    font-size: 15px;
+    font-weight: bold;
+}

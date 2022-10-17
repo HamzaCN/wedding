@@ -1,0 +1,64 @@
+.vendorCards{
+    text-decoration: none;
+    border: none;
+    margin: 20px;
+    text-align: left;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    cursor: pointer;
+}
+.vendorCards:hover{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(136, 136, 136, 0.47);
+    border: none;
+    margin: 20px;
+    transition: 0.5s;
+    transform: scale(1.01);
+    
+}
+
+.ratings{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 2px;
+}
+.icon-rating{
+    color:#FABB00;
+ margin-right: 2px;
+}
+
+.ratingNumber{
+    color: gray;
+    font-size: 12px;
+    margin-right: 5px;
+
+}
+.city{
+    color:rgb(113, 113, 113);
+    font-size: 11px;
+    margin-right: 2px;
+}
+.v-icon{
+    color: #000000;
+    font-size: 22px !important;
+    margin-right: 5px;
+
+}
+.cardbody{
+    height: 200px;
+}
+.vendorDeals{
+    color: #000000;
+    margin-right: 2px;
+    font-size: 13px;
+}
+.discountDeals{
+ margin-top: 10px;
+}
+    
+.vendorDiscount{
+    color: rgb(255, 91, 91);
+    margin-right: 2px;
+    font-size: 13px;
+}

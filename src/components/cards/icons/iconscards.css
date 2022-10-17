@@ -1,0 +1,31 @@
+.iconsCards{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 15px;
+    width: 180px;
+    height: 160px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.iconsCards:hover{
+    transform: scale(1.01);
+}
+.iconsCardsImg img{
+    width: 80px;
+    height: 80px;
+}
+.iconsCardsText{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.iconsCardsText h3{
+    font-size: 14px;
+    font-weight: bold;
+}
