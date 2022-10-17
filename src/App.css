@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
 }
+.forumCardsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
 
 .App-logo {
   height: 40vmin;
