@@ -19,7 +19,7 @@ const WeddingCards = () => {
         </div>
       </div>
       <Card.Body className='bodyOfCard'>
-        <Card.Title>Anna Roussos Photography</Card.Title>
+        <Card.Title>Anna Roussos Photography.</Card.Title>
         <Card.Text className='weddingCardText'>
         15 photos · Islamabad, Punjab
         
