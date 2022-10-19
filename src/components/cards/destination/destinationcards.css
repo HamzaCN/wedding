@@ -6,8 +6,6 @@
     cursor: pointer;
 }
 
-
-
 .destinationCardsImg{
     width: 180px;
     height: 250px;
@@ -27,4 +25,18 @@
     justify-content: left!important;
     text-align: left;
     padding-top: 5px;
+}
+@media only screen and (max-width: 600px){
+    .destinationCards{
+        width: 150px;
+        height: 250px;
+       
+    }
+    .destinationCardsImg{
+        width: 150px;
+        height: 200px;
+    }
+    .destinationCardText{
+        font-size: 12px;
+    }
 }

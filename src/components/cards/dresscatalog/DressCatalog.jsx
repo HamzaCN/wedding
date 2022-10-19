@@ -7,7 +7,7 @@ function DressCatalog(props) {
             <div className='dressCatalogCards'>
             <img className='dressCatalogCardsImg' src="https://images.pexels.com/photos/157757/wedding-dresses-fashion-character-bride-157757.jpeg?cs=srgb&dl=pexels-pixabay-157757.jpg&fm=jpg" alt='destination' />
             <div className='dressCatalogCardText'>
-                barbados beach
+            Wedding Dresses
             </div>
         </div>
         </div>

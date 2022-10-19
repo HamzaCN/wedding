@@ -2,12 +2,19 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .forumCardsContainer{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: flex-start;
+}
+.destinationCardsContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .App-logo {
