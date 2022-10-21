@@ -10,11 +10,37 @@ import forumCardsData from './components/cards/forum/forumCardsData.json'
 import DestinationMain from './components/carousels/DestinationMain';
 import MainHeader from './components/header/mainheader/MainHeader';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar/Navbar';
+import { useState, useEffect } from 'react';
+
 
   const App = () => {
+        const [data, setData] = useState(null);
+ const [loading, setLoading] = useState(true);
+ const [error, setError] = useState(null);
+
+//  const fetchData = async () => { 
+//     try {
+//       const response = await fetch('https://api.atifsaeed.a2hosted.com/api/getData');
+//       const json = await response.json();
+//       setData(json);
+//     } catch (error) {
+//       setError(error);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
+
+
+//  useEffect(() => {
+//     fetchData();
+//    }, []);
+//    console.log(data.data[0].title);
+  
     return (
       <>
         <div className="App">
+            <Navbar />
             <MainHeader />
             <VendorCards />
             <WeddingCards />
