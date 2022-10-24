@@ -5,7 +5,6 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import './navbar.css';
 import { BsCardChecklist } from "react-icons/bs";
 
-
 function Navbar(props) {
     return (
         <header>
@@ -18,10 +17,10 @@ function Navbar(props) {
                 </div>
                 <ul className="nav__list">
                     <div className="close__menu">
-                        <RiCloseCircleFill />
+                        <RiCloseCircleFill  />
                     </div>
-                    <li className="nav__item">
-                        <a href="#" className="nav__link dropdown__link">Planning Tools <RiArrowDropDownLine className='dropdown__icon' /></a>
+                    <li className="nav__item dropdown">
+                        <a href="#" className="nav__link dropdown__link ">Planning Tools <RiArrowDropDownLine className='dropdown__icon' /></a>
                     </li>
                     <li className="nav__item">
                         <a href="#" className="nav__link dropdown__link">Venues <RiArrowDropDownLine className='dropdown__icon' /></a>

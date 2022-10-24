@@ -1,6 +1,6 @@
 import React from "react";
-import DestinationCards from "../cards/destination/DestinationCards";
-import DestinationData from "../cards/destination/destinationData.json";
+import DestinationCards from "../../cards/destination/DestinationCards";
+import DestinationData from "../../cards/destination/destinationData.json";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 

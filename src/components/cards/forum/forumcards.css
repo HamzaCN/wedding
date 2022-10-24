@@ -66,12 +66,12 @@ transition: all 0.5s ease;
 }
 .forumPostAuthorName{
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     color: #434343;
 }
 .forumPostAuthorDate{
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
     color: gray;
     margin-left: 10px;
 }

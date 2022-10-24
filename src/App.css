@@ -1,13 +1,14 @@
 .App {
-  /* text-align: center;
+  text-align: center;
   display: flex;
-  flex-direction: column; */
+  flex-direction: row;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 .forumCardsContainer{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
 }

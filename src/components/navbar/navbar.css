@@ -16,10 +16,6 @@ a{
 li{
     list-style: none;
 }
-body{
-    background-color: #f0f0f0;
-}
-
 header{
     position: fixed;
     top: 0;
@@ -50,6 +46,7 @@ nav{
     color: #000;
     padding: 0 0.5rem;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .nav__list{
@@ -58,7 +55,7 @@ nav{
 
 .nav__item{
     margin: 0 10px;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     text-transform: uppercase;
     font-family: 'Kanit', sans-serif;
 }
@@ -89,8 +86,9 @@ nav{
     border-radius: 0 0 20px 20px;
     box-shadow: 0 23px 23px -21px rgba(0, 0, 0, 0.25);
     z-index: -99;
-    /* visibility: hidden;
-    opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
+
 }
 .content{
     display: flex;
@@ -136,4 +134,12 @@ nav{
     font-size: 0.6875rem;
     font-weight: 400;
     color: #a8a1b5;
+}
+
+
+.dropdown:hover .megamenu{
+    color: #a92ec8;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease;
 }

@@ -6,14 +6,14 @@ function MainHeader(props) {
         <section className='heromain'>
                 <div className="hero-left">
                 <div className="copy">
-                    <div className="text-label">
+                    {/* <div className="text-label">
                     Changes your webiste more better
-                    </div>
+                    </div> */}
                     <div className="text-hero-bold">
-                    Grew Up your mind in the...
+                    Let's Find your wedding team
                     </div>
                     <div className="text-hero-regular">
-                    Lorwemm dolor sit amet, consectetur adipiscing elit.
+                    Search over 250,000 local professionals with reviews,<br /> pricing, availability, and more
                     </div>
                     <div className="cta">
                     <button className="btn btn-primary shadow-none">Get Started</button>
