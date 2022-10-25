@@ -1,31 +1,62 @@
+
 .iconsCards{
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
-    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(112, 112, 112, 0.47);
     border-radius: 15px;
-    width: 180px;
-    height: 160px;
+    width: 160px;
+    height: 135px;
     padding: 20px;
-    margin: 20px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     transition: transform .2s;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    transition: top ease .2s;
 }
 .iconsCards:hover{
     transform: scale(1.01);
+    top: -10px;
 }
 .iconsCardsImg img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .iconsCardsText{
     display: flex;
     text-align: center;
     align-items: center;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .iconsCardsText h3{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+    
+}
+@media only screen and (max-width: 600px) { 
+    .iconsCards{
+        width: 100%;
+        margin: 5px;
+        width: 100px;
+        height: 80px;
+        padding: 30px;
+        padding-top: 40px;
+        margin-bottom: 10px;
+    }
+    .iconsCardsText h3{
+        font-size: 14px;
+    }
+    .iconsCardsImg img{
+        width: 30px;
+        height: 30px;
+    }
+    .iconsCards:hover{
+        transform: scale(1.01);
+        top: -3px;
+    }
+   
 }

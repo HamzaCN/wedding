@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,700;0,900;1,200;1,300;1,600;1,800&display=swap');
 
 .heromain{
-    margin: 0;
     border-bottom: 1px solid gainsboro;
     display: flex;
-    justify-content: center;
+    width: 100%;
 }
 .hero-left{
-    flex: 1;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc(50% - 50px);
 }
 .copy{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
+   justify-content: center;
 }
 .hero-right{
-    flex: 1;
     width: 50%;
+    object-fit: contain;
 }
 
 
@@ -50,12 +46,58 @@
     font-weight: 400;
     color: #000;
     line-height: 22px;
-    justify-content: left;
-    text-align: left;
+    
 }
 .hero-right img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-    object-position: right;
+}
+
+@media screen and (max-width: 600px){
+    .heromain{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;        
+    }
+    .hero-left{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-right{
+        width: 100%;
+       
+    }
+    .hero-right img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .text-hero-bold{
+        font-size: 25px;
+        font-weight: 900;
+        color: #222222;
+        line-height: 24px;
+       
+    }
+    
+    .text-hero-regular{
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        line-height: 20px;
+    }
+
+    
 }

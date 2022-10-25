@@ -1,0 +1,14 @@
+.HomeIcons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) { 
+    .HomeIcons{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+}

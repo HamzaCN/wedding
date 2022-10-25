@@ -2,12 +2,13 @@
     width: 300px;
     height: 300px;
     margin: 20px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
 .forumCards:hover{
-    -webkit-transition: all 0.5s ease;
-transition: all 0.5s ease;
-    
+top: -10px;
 }
 
 .forumCardsData{
@@ -41,6 +42,7 @@ transition: all 0.5s ease;
     color: #434343;
     justify-content: left;
     text-align: left;
+    text-transform: capitalize;
 }
 
 .forumCardsData p{
@@ -52,6 +54,17 @@ transition: all 0.5s ease;
     color: gray;
     justify-content: left;
     text-align: left;
+}
+.forumCardsData:hover{
+    transform: scale(1.01);
+    color: white;
+background-color: #5CCACF;
+}
+.forumCardsData:hover h2{
+    color: white;
+}
+.forumCardsData:hover p{
+    color: white;
 }
 .forumPostAuthor{
     display: flex;
